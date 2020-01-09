@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Home"
+    tools:layout_editor_absoluteY="73dp">
+
+    <TextView
+        android:id="@+id/Name1"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="viewStart"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Name21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Price1"
+        android:layout_width="191dp"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/change1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name21" />
+
+    <TextView
+        android:id="@+id/Change1"
+        android:layout_width="191dp"
+        android:layout_height="63dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/change1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/change1"
+        android:layout_width="191dp"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/change21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Price1" />
+
+    <TextView
+        android:id="@+id/Change21"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/change21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/change21"
+        android:layout_width="191dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="143dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change1" />
+
+    <TextView
+        android:id="@+id/Name21"
+        android:layout_width="118dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="62dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toTopOf="@+id/Price1"
+        app:layout_constraintStart_toStartOf="@+id/Name1"
+        app:layout_constraintTop_toBottomOf="@+id/Name1" />
+</android.support.constraint.ConstraintLayout>

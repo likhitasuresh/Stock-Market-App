@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Stock Market</string>
+    <string name="title1">Name</string>
+    <string name="title2">Industry</string>
+    <string name="title3">Listing Date</string>
+    <string name="title4">Website</string>
+    <string name="title5">Summary</string>
+    <string name="f1">Amazon.com,Inc.
+    \n410 Terry Ave N, SEATTLE, WA, United States
+    \n1-206-2661000
+    \n1-302-6365454</string>
+    <string name="f2">Consumer Cyclicals - Retailers - Diversified Retail - Department
+    \nStores - Internet and Mail Order Department Stores</string>
+    <string name="f3">1997-05-01</string>
+    <string name="f4">http://www.amazon.com/</string>
+    <string name="f5">Amazon.com,Inc. offers a range of products and services\n
+    through its Websites. The Company operates through three
+        \nsegments : North America, International and Amazon Web Services(AWS)</string>
+    <string name="f6">Apple Inc.
+    \n1 Apple Park Way, CUPERTINO, CA, United States
+    \n1-408-9961010</string>
+    <string name="f7">Technology - Technology Equipment - Computers, Phones and
+        \nHousehold Electronics - Phones and Handheld Devices - Phones
+    \n and Smart Phones</string>
+    <string name="f8">1980-12-12</string>
+    <string name="f9">https://www.apple.com/</string>
+    <string name="f10">Apple Inc. designs, manufatures and markets mobile
+    communication and media devices, personal computers and
+    portable digital music players. The Company sells a range of
+        related software, services, accessories, networking solutions,
+    and third party digital content and applications</string>
+    <string name="about">This is a trading app that displays certain information
+    about famous companies and their stocks. This application also displays growth
+    charts that represent the growth of the shares owned by the respective companies</string>
+</resources>

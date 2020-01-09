@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/bg"
+        android:fontFamily="sans-serif"
+        android:text="Stock Price Growth Chart for 3 Months"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:cursorVisible="false"/>
+
+    <LinearLayout
+        android:id="@+id/graph2"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#102f65"
+        android:orientation="vertical"
+       />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:background="@color/bg"
+        android:text="X axis-> No.of Days                       Y axis-> Price in rupees"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#FFFFFF"
+        android:cursorVisible="false"
+        />
+</LinearLayout>

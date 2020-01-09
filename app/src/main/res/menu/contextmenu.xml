@@ -1,0 +1,16 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+
+        android:title="About"/>
+    <item
+        android:id="@+id/growth"
+        android:orderInCategory="100"
+
+        android:title="Growth"
+        />
+
+</menu>
