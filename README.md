@@ -9,13 +9,16 @@ This application is mainly aimed at people who invest in the stock market and wo
 
 Attached are screenshots from the application:
 
-![applock](screenshots/app_lock.png) ![1_month](screenshots/list_of_companies.png)
+![applock](screenshots/app_lock.png) 
 
-![1_month](screenshots/1_month.png)
+*The app comes with an in built app lock*
 
-![1_month](screenshots/3_months.png)
+![1_month](screenshots/list_of_companies.png)
 
+*A scrollview of the companies available along with the price in INR*
 
-![1_month](screenshots/1_year.png)
+![1_month](screenshots/1_month.png)![1_month](screenshots/3_months.png)![1_month](screenshots/1_year.png)
+
+*Growth charts of AMD for specific periods of time*
 
 
