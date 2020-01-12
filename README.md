@@ -6,3 +6,16 @@ This application is mainly aimed at people who invest in the stock market and wo
 * There are graphs which show the growth of a particular company for three different time periods.
 * Multiple pure android components like options menu, context menu, tab layout, fragments, graph view, and list view were used in this project. 
 * This project also utilizes SQLite database connectivity to store all the data required
+
+Attached are screenshots from the application:
+
+![applock](screenshots/app_lock.png) ![1_month](screenshots/list_of_companies.png)
+
+![1_month](screenshots/1_month.png)
+
+![1_month](screenshots/3_months.png)
+
+
+![1_month](screenshots/1_year.png)
+
+
