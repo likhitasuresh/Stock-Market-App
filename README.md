@@ -1,6 +1,8 @@
 # **Android Stock Market App**
 This application is mainly aimed at people who invest in the stock market and would like to keep track of the price dips and highs. 
 
+Dated: Aug-Dec 2018
+
 ## **Functionality**
 * The application has multiple views that are convenient for the user to study.
 * There are graphs which show the growth of a particular company for three different time periods.
